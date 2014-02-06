@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQ Mobile Test</title>\
+<link href="themes/bland.css" rel="stylesheet">
+<link href="themes/jquery.mobile.icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+</head>
+
+<body>
+<!--Home Page-->
+<div data-role="page" id="home">
+  <header data-role="header">
+    <h1>Home Page Title </h1>
+  </header>
+  <div data-role="content">
+  <p>Momma i killed a man</p>
+   <a href="#about" data-transition="flip">About Page</a><br>
+
+     <a href="#contact" data-transition="slidedown">Contact Page</a><br>
+
+       <a href="#home" data-transition="slideup">Home Page</a><br>
+	<a href="#dialogbox" data-rel="dialog"> You Win</a>
+    <a href="index.html" data-rel="external"> index</a><br>
+	<a href="#popup"  data-rel="popup" data-position-to="window">POP</a>
+    <br>
+
+    <!-- POP UP-->
+    <div data-role="popup" id="popup"><p>Put a gun against his head.</p></div>
+    
+    
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4> Home Footer</h4>
+  </footer>
+</div>
+
+
+<div data-role="page" id="about" data-theme="b">
+  <header data-role="header">
+    <h1>About Page Title </h1>
+  </header>
+  <div data-role="content">
+   <p>we all live in a yellow submarine</p>
+   <a href="#" data-role="button">Do what you want.</a>
+   <a href="#" data-role="button" data-inline="true">Dope</a>
+   <hr>
+   <a href="#" data-role="button" data-icon="alert">Do what you want.</a>
+   
+   <button data-icon="check" data-iconpos="top" data-theme="c">Real button</button>
+   <input type="submit" value="submit">
+   
+   
+   <div class="ui-grid-a">
+   	<div class="ui-block-a">
+     <input type="submit" value="submit">
+     </div>
+     
+     <div class="ui-block-b">
+     <input type="submit" value="submit">
+     </div>
+      	<div class="ui-block-a">
+     <input type="submit" value="submit">
+     </div>
+     
+     <div class="ui-block-b">
+     <input type="submit" value="submit">
+     </div>
+   </div>
+  
+   
+   
+   
+     <a href="#about" data-transition="flip">About Page</a><br>
+
+     <a href="#contact" data-transition="slidedown">Contact Page</a><br>
+
+       <a href="#home" data-transition="slideup">Home Page</a>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4> About Footer</h4>
+  </footer>
+</div>
+
+
+<div data-role="page" id="contact"data-theme="c">
+  <header data-role="header">
+    <h1>Contact Page Title </h1>
+  </header>
+  <div data-role="content">
+   <p>call me maybe</p>
+     <a href="#about" data-transition="flip">About Page</a><br>
+
+     <a href="#contact" data-transition="slidedown">Contact Page</a><br>
+
+       <a href="#home" data-transition="slideup">Home Page</a>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4> Contact Footer</h4>
+  </footer>
+</div>
+<!-- pop up dialog-->
+<div data-role="page" id="dialogbox">
+  <header data-role="header">
+    <h1>YOU WIN! </h1>
+  </header>
+  <div data-role="content">
+   <h3>You're our 10th visitor</h3>
+    <p>Prize value of 1 billion!</p>
+  </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4> Contact Footer</h4>
+  </footer>
+</div>
+
+
+
+</body>
+</html>
